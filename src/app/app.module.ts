@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatTableFilterComponent } from './mat-table-filter/mat-table-filter.component';
+import { MaterialComponentsModule } from './material-components/material-components.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { MatTableFilterComponent } from './mat-table-filter/mat-table-filter.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
