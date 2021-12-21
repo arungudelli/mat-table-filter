@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatTableFilterComponent } from './mat-table-filter/mat-table-filter.component';
 import { MaterialComponentsModule } from './material-components/material-components.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { MaterialComponentsModule } from './material-components/material-compone
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialComponentsModule
+    MaterialComponentsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
